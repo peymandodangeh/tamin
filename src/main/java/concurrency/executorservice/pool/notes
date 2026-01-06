@@ -1,0 +1,4 @@
+Executors.newFixedThreadPool(n);      // CPU-bound
+Executors.newCachedThreadPool();      // IO-bound
+Executors.newSingleThreadExecutor();  // ترتیب تضمینی
+Executors.newScheduledThreadPool(n);  // زمان‌بندی
